@@ -1,0 +1,32 @@
+{% load custom_tags %}
+
+{% for k, value in items.items %}
+    {% if items|get_item:k %}
+        <div style="padding-bottom: 50px;">
+            {% for question in items|get_item:k %}
+                {% if forloop.counter == 1 %}
+                    <div  style="width: 150px; font-size: 30px;">{{ k }}</div>
+                    {% for k, v in question.items %}
+                        <div style="display: inline-block;
+                                    width: 150px;
+                                    border-bottom: solid;">
+                            {{ k }}
+                        </div> 
+                    {% endfor %}
+                {% endif %}
+                <div>
+                    {% if question.items %}
+                        {% for k, v in question.items %}
+                            <div style="display: inline-block;
+                                        width: 150px">
+                                {{ v }}            
+                            </div> 
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <p>No items are available.</p>
+    {% endif %}
+{% endfor %}

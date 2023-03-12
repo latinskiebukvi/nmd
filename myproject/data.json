@@ -1,0 +1,75 @@
+{
+    "customers": [
+        {
+            "first_name": "Ivan",
+            "last_name" : "Petrov"
+        },
+        {
+            "first_name": "Petr",
+            "last_name" : "Ivanov"
+        }
+    ],
+
+    "storages": [
+        {
+            "addres": "Lenina st., 1"
+        },
+        {
+            "addres": "Lenina st., 2"
+        }
+    ],
+    "countries": [
+        {
+            "country_name": "US"
+        },
+        {
+            "country_name": "CN"
+        },
+        {
+            "country_name": "JP"
+        },
+        {
+            "country_name": "KOR"
+        }
+    ],
+    "developers": [
+        {
+            "dev_name": "maker 1"
+        },
+        {
+            "dev_name": "maker 2"
+        },
+        {
+            "dev_name": "maker 3"
+        }
+    ],
+    "models": {
+        "maker 1": [
+            {
+                "model_name": "model p"
+            },
+            {
+                "model_name": "model o"
+            }
+        ],
+        "maker 2": [
+            {
+                "model_name": "pro 256 xxx"
+            },
+            {
+                "model_name": "pro 512 yyy"
+            }
+        ],
+        "maker 3": [
+            {
+                "model_name": "s max"
+            },
+            {
+                "model_name": "d min"
+            },
+            {
+                "model_name": "f mid"
+            }
+        ]
+    }
+}
