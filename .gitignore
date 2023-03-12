@@ -1,0 +1,11 @@
+*/
+*.sqlite3
+
+!myproject
+!myproject/myproject
+!myproject/myapp
+!myproject/myapp/template_tags
+!myproject/myapp/templates
+!myproject/myapp/migrations
+!myproject/myapp/management
+!myproject/myapp/management/commands
