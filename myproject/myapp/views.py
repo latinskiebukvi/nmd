@@ -10,5 +10,4 @@ def index(request):
             "count_device_by_model": count_device_by_model,
         }
     }
-    print(count_device_by_storage)
     return HttpResponse(template.render(context, request))
