@@ -7,6 +7,8 @@
 
 Результат оформить в виде проекта на github/gitlab. Структуру БД прикрепить в виде pdf в корне репозитория.
 
+[Data model](data_model.pdf)
+
 ```
 cd nmd
 pip install -r requirements.txt
